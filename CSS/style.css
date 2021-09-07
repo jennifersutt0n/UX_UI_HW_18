@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+     background-color: whitesmoke;
   }
   h1 {
     color: #1F363D;
@@ -12,4 +12,13 @@ footer {
     position: bottom;
     height: 200px;
     margin-top: -200px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.workGrid {
+  display: grid;
 }
